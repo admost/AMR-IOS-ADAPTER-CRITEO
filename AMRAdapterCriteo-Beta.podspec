@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name             = 'AMRAdapterCriteo'
-  s.version          = '4.4.0.1'
+  s.name             = 'AMRAdapterCriteo-Beta'
+  s.version          = '4.4.0.2'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.documentation_url = 'https://admost.github.io/amrios/'
   s.platform 			= :ios
   s.ios.deployment_target = '9.0'
-  s.vendored_libraries = 'AMRAdapterCriteo/Libs/libAMRAdapterCriteo.a'
+  s.vendored_libraries = 'AMRAdapterCriteo-Beta/Libs/libAMRAdapterCriteo.a'
   s.dependency 'AMRSDK', '~> 1.5.0'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
 
