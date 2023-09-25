@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterCriteo'
-  s.version          = '5.0.2.0'
+  s.version          = '5.0.3.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
   s.dependency 'AMRSDK', '~> 1.5.6'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
 
-  s.dependency 'CriteoPublisherSdk', '5.0.2'
+  s.dependency 'CriteoPublisherSdk', '5.0.3'
 
 end
