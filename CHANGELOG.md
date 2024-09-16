@@ -3,6 +3,10 @@
 Changelog for AMRAdapterCriteo. 
 CriteoPublisherSdk [changelog](https://publisherdocs.criteotilt.com/app/ios/get-started/)
 
+## [7.0.0.0] - 2024-09-16
+### Updated
+- Offical release for CriteoPublisherSdk 7.0.0
+
 ## [6.2.0.0] - 2024-07-18
 ### Updated
 - Offical release for CriteoPublisherSdk 6.2.0
