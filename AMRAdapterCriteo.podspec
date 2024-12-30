@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterCriteo'
-  s.version          = '7.0.0.0'
+  s.version          = '7.0.0.1'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_versions = ['5']
   s.vendored_frameworks = 'AMRAdapterCriteo/Libs/AMRAdapterCriteo.xcframework'
-  s.dependency 'AMRSDK', '~> 1.5.6'
+  s.dependency 'AMRSDK', '~> 1.5.55'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
 
   s.dependency 'CriteoPublisherSdk', '7.0.0'
